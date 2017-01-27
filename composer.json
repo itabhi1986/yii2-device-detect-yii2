@@ -1,0 +1,24 @@
+{
+    "name": "abhishek/yii2-device-detect-yii2",
+    "description": "YII2 Device Detect Library",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension.mobile-detect"," device detect"],
+    "license": "BSD-4-Clause",
+    "authors": [
+        {
+            "name": "Abhishek Singh Chauhan",
+            "email": "abhishek.it.1986@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "mobiledetect/mobiledetectlib": "^2.8"
+ 
+    },
+    "autoload": {
+        "psr-4": {
+            "abhishek\\devicedetect\\": ""
+	    
+        }
+    }
+}
